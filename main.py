@@ -1,15 +1,13 @@
-word = "Some"  # String
+frst_word = "Some"  # String
 number = 7  # Integer
-num_2 = 5.68132  # Float
-bool = False  # Boolean
+frst_bool_status = False  # Boolean
 
 word = "Результат:"
 
 number -= 5
-x = 8
-res = number % x
+num_x = 8
+res = number % num_x
 
-a = z = q = 10
-w, r, b = 12, "Word", True
+third_num, sec_word, sec_bool_status = 12, "Word", True
 
-print(word, res, w, r, b)
+print(frst_word, res, third_num, sec_word, sec_bool_status)
